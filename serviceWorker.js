@@ -2,6 +2,7 @@ const staticPWA = "pwa-test-v1";
 
 const assets = [
     "/",
+    "/index.html",
     "/js/app.js",
     "/js/route.js",
     "/js/router.js",
