@@ -9,5 +9,6 @@
         ]);
 
         router.init();
+        alert('done');
     });
 })();
