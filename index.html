@@ -21,12 +21,12 @@
     <meta name="theme-color" content="#db4938" />
 
     <script>
-        window.onload = () => {  
+        document.addEventListener('DOMContentLoaded', () => {
             'use strict';     
             if ('serviceWorker' in navigator) {     
                 navigator.serviceWorker.register('/serviceWorker.js'); 
             } 
-        }
+        })
     </script>
 </head>
 <body>
