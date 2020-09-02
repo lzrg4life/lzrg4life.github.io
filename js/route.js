@@ -1,8 +1,6 @@
 'use strict';
 
 class Route {
-    name = undefined;
-    htmlName = undefined;
 
     constructor(name, htmlName) {
         if (!name || !htmlName) {
