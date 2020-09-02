@@ -1,9 +1,9 @@
 'use strict';
 
 class Router {
-    routes;
-    defaultRoute;
-    rootElem;
+    routes = undefined;
+    defaultRoute = undefined;
+    rootElem = undefined;
 
     constructor(rootElem, routes, defaultRouteIndex) {
         if (!routes) {
