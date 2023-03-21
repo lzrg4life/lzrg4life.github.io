@@ -1,4 +1,4 @@
-const staticPWA = "pwa-test-v1";
+const staticPWA = "pwa-test-v2";
 
 const assets = [
     "/",
